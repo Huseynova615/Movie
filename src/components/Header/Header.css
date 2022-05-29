@@ -1,0 +1,11 @@
+.navbar {
+    background: #496DDB;
+    padding: 15px calc(50% - 100px) 10px;
+}
+
+.navtext {
+    font-family: 'Luckiest Guy', cursive;
+    color: #FFEEDB;
+    font-size: 45px;
+    margin-left: 40px;
+}

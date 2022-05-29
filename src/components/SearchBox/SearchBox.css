@@ -1,0 +1,52 @@
+.form {
+    display: flex;
+  }
+  
+  .label {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  
+  .form-input {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 5px;
+    width: 300px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, 0.5);
+  }
+  
+  .form-submit {
+    margin-top: 17px;
+    padding: 5px 10px;
+    border: none;
+    transition: all 0.2s linear;
+    color: #ffeedb;
+    background-color: rgba(0, 8, 7);
+  }
+  
+  .form-submit:hover:not(:disabled) {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background-color: #ffeedb;
+    color: rgba(0, 8, 7);
+  }
+  
+  .form-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 991px) {
+    .form {
+      width: 90%;
+      padding: 0;
+    }
+    .form-input {
+      width: 320px;
+    }
+  }
+  

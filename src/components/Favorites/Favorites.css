@@ -1,0 +1,62 @@
+.favs {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 8, 7);
+    padding: 30px 20px;
+  }
+  
+  .favna {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, 0.5);
+    margin-bottom: 24px;
+  }
+  
+  .favul {
+    margin-bottom: 24px;
+  }
+  
+  .favul li {
+    margin-bottom: 10px;
+  }
+  
+  .favsave {
+    border: none;
+    background-color: #496ddb;
+    padding: 10px 15px;
+    color: #ffeedb;
+    font-size: 14px;
+    transition: all 0.2s linear;
+  }
+  
+  .favsave:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+  }
+  .remove {
+    border:none;
+    margin-right: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    font-size: 17px;
+    transition: 0.075s ease-in-out;
+  }
+
+  .remove:hover {
+    transform: scale(1.125);
+  }
+  
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movname {
+    line-height: 1.5rem;
+    width: 87%;
+  }

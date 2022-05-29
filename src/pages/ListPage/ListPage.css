@@ -1,0 +1,84 @@
+.list-page {
+    padding: 0px calc(50% - 300px);
+  }
+  
+  .list-title {
+    font-size: 40px;
+    margin: 26px 0;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+  }
+  
+  .list-page ul li {
+    width: 600px;
+    padding: 20px;
+    background-color: #FFEEDB;
+    display: flex;
+    justify-content: center;
+  }
+  .mov-title {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .list-movie {
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .movie-poster {
+    height: 250px;
+    margin-right: 50px;
+
+  }
+  
+  .list-page__link-imdb {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .link-imdb {
+    margin-top: 7px;
+    margin-right: 55px;
+    display: block;
+  }
+  
+  .listinfo {
+    display: flex;
+    padding: 10px 0px;
+    /* border-bottom: 1px solid lightgray; */
+  }
+  .listinfo-title {
+    width: 160px;
+    font-size: 13px;
+  }
+  
+  .mov-about {
+    padding: 10px 0;
+  }
+  
+  .listinfo-value {
+    font-size: 13px;
+    width: 100%;
+  }
+  
+  .link-to__list {
+    text-decoration: none;
+    color: white;
+  }
+  .movie-item__info-list {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0 0 0;
+  }
+  
+  #movie-item__info-item {
+    padding: 0;
+  }
+  
+  .info {
+    width: 50%;
+  }
+  
