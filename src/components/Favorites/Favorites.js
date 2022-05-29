@@ -9,7 +9,7 @@ function Favorites(props) {
 
   const [state, setState] = useState({
     isSbm: false,
-    title: "",
+    title: "New list",
   })
 
   const favoriteChangeHandler = (e) => {
@@ -22,14 +22,19 @@ function Favorites(props) {
     return favoritesIDArray;
   };
   const saveListHandler = () => {
-    setState({ isSbm: true });
-    props.postList(state.title, getImdbIDArray());
+    if(!state.title.length){
+    setState(prev=>({...prev, disabled: true }));
+    }
+    else{
+      setState(prev=>({...prev,  isSbm: true }));
+      props.postList(state.title, getImdbIDArray());
+    }
   };
     const { title, isSbm } = state;
     return (
       <div className="favs">
         <input
-        placeholder="Add your heading"
+        // placeholder="Add your heading"
           value={title}
           className="favna"
           onChange={favoriteChangeHandler}
